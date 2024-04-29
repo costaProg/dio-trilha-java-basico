@@ -1,10 +1,12 @@
 package Main;
+import java.util.Locale;
 import java.util.Scanner;
 import ContaBanco.*;
 
 public class ContaTerminal {
 	public static void main(String[] args) throws Exception{
 		Scanner scan = new Scanner(System.in);
+		scan.useLocale(Locale.ENGLISH);
 						
 		System.out.println("Olá usuário, seja bem vindo ao nosso sistema de gerenciamento de conta!\n"
 				+ "Por favor, informe seu nome: ");
@@ -17,7 +19,6 @@ public class ContaTerminal {
 		System.out.println("Informe o número da sua conta: ");
 		int numero = scan.nextInt();
 		
-		//Está aceitando o valor somente se passarmos com vírgula ex: 237,48
 		System.out.println("Informe o saldo atual de sua conta: ");
 		double saldo = scan.nextDouble();
 		
