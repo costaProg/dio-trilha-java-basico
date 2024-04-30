@@ -32,7 +32,7 @@ public class Contador {
 			parametroUm ++;
 			parametroDois ++;
 			System.out.println("Interação "+ (i+1));
-			System.out.println("Parâmetro um: " + parametroUm + "\nParâmetro dois: "+parametroDois+"\n");
+			System.out.println("Parâmetro um incrementado: " + parametroUm + "\nParâmetro dois incrementado: "+parametroDois+"\n");
 		}
 	}
 }
